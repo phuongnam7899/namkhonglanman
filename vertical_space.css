@@ -1,0 +1,24 @@
+.vertical-space--4{
+    width: 0;
+    height: 4px;
+}
+.vertical-space--8{
+    width: 0;
+    height: 8px;
+}
+.vertical-space--16{
+    width: 0;
+    height: 16px;
+}
+.vertical-space--32{
+    width: 0;
+    height: 32px;
+}
+.vertical-space--64{
+    width: 0;
+    height: 64px;
+}
+.vertical-space--128{
+    width: 0;
+    height: 128px;
+}

@@ -1,0 +1,39 @@
+.posts{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.posts__item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts__item__title{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    width: 50%;
+}
+
+.posts__item__content{
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts__item__content > p{
+    width: 60%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.posts__item__content > img{
+    width: 100%;
+    margin: 16px 0px;
+}

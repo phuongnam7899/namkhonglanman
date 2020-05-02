@@ -1,0 +1,40 @@
+.food-choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.food-choose__title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.food-choose__address{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.food-choose__image{
+    width: 30%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.food-choose__next-button{
+    color: white;
+    background-color: rgb(67, 177, 67);
+    font-size: 1.3em;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.food-choose__next-button:hover{
+    cursor: pointer;
+    background-color: rgb(52, 143, 52);
+}

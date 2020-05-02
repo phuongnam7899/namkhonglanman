@@ -1,0 +1,25 @@
+.head__title{
+    font-size: 4em;
+    text-align: center;
+}
+
+.head__menu{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.head__menu__item{
+    font-size: 1.2em;
+    margin: 0 16px;
+    text-decoration: none;
+}
+.head__menu__item:hover{
+    color: #be2623;
+    cursor: pointer;
+}
+
+.head__menu__item--active{
+    color: #be2623;
+}
